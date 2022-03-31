@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/svelte-pdfjs/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/svelte-pdfjs/_app/assets/pages/index.svelte-1bc88534.css">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/start-0bd8fe0d.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/vendor-922fb0b3.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/preload-helper-fb054462.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/layout.svelte-d7146ce0.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/pages/index.svelte-20613c63.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/index-9bf66fa5.js">
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<section class="settings"><input type="range" step="0.25" max="4" min="1" value="1">
+	<input type="number" step="1" min="1" max="1" value="1">
+
+	<input type="radio" value="/tackling-ts-preview-book.pdf" checked> Doc 1
+	<input type="radio" value="/impatient-js-preview-book.pdf"> Doc 2
+	<input type="radio" value="/yadayada.pdf"> Doc 3 (doesn&#39;t exist)
+
+	<input type="checkbox"> Render text layer
+	<input type="range" step="20" max="700" min="300" value="500">
+
+	<select><option value="0">0</option><option value="90">90</option><option value="180">180</option><option value="270">270</option></select>
+	<input type="checkbox" checked></section>
+
+
+
+
+		<script type="module" data-hydrate="n9tj2g">
+		import { start } from "/svelte-pdfjs/_app/start-0bd8fe0d.js";
+		start({
+			target: document.querySelector('[data-hydrate="n9tj2g"]').parentNode,
+			paths: {"base":"/svelte-pdfjs","assets":"/svelte-pdfjs"},
+			session: {},
+			route: false,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/svelte-pdfjs/_app/layout.svelte-d7146ce0.js"),
+						import("/svelte-pdfjs/_app/pages/index.svelte-20613c63.js")
+				],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script></div>
+	</body>
+</html>
