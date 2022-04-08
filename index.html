@@ -6,11 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/svelte-pdfjs/_app/assets/pages/index.svelte-1bc88534.css">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/start-adba6b8b.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/start-cd0dfdf2.js">
 	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/vendor-e2a2a348.js">
 	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/preload-helper-8d739a92.js">
 	<link rel="modulepreload" href="/svelte-pdfjs/_app/layout.svelte-0a950d80.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/pages/index.svelte-76429d7b.js">
+	<link rel="modulepreload" href="/svelte-pdfjs/_app/pages/index.svelte-63a55f61.js">
 	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/index-edb5e20a.js">
 	</head>
 	<body>
@@ -19,9 +19,7 @@
 
 <section class="settings"><input type="number" step="1" min="1" max="1" value="1">
 
-	<input type="radio" value="/tackling-ts-preview-book.pdf" checked> Doc 1
-	<input type="radio" value="/impatient-js-preview-book.pdf"> Doc 2
-	<input type="radio" value="/yadayada.pdf"> Doc 3 (doesn&#39;t exist)
+	<select><option value="tackling-ts-preview-book.pdf">tackling-ts-preview-book.pdf</option><option value="impatient-js-preview-book.pdf">impatient-js-preview-book.pdf</option><option value="a.pdf">non existent file</option></select>
 
 	<input type="checkbox"> Render text layer
 
@@ -37,10 +35,10 @@
 
 
 
-		<script type="module" data-hydrate="77qqol">
-		import { start } from "/svelte-pdfjs/_app/start-adba6b8b.js";
+		<script type="module" data-hydrate="1m9pjlk">
+		import { start } from "/svelte-pdfjs/_app/start-cd0dfdf2.js";
 		start({
-			target: document.querySelector('[data-hydrate="77qqol"]').parentNode,
+			target: document.querySelector('[data-hydrate="1m9pjlk"]').parentNode,
 			paths: {"base":"/svelte-pdfjs","assets":"/svelte-pdfjs"},
 			session: {},
 			route: false,
@@ -51,7 +49,7 @@
 				error: null,
 				nodes: [
 					import("/svelte-pdfjs/_app/layout.svelte-0a950d80.js"),
-						import("/svelte-pdfjs/_app/pages/index.svelte-76429d7b.js")
+						import("/svelte-pdfjs/_app/pages/index.svelte-63a55f61.js")
 				],
 				params: {},
 				routeId: ""
