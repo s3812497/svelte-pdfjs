@@ -5,13 +5,20 @@
 		<link rel="icon" href="/svelte-pdfjs/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/svelte-pdfjs/_app/assets/pages/index.svelte-1bc88534.css">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/start-48e156e4.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/vendor-e2a2a348.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/preload-helper-8d739a92.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/layout.svelte-0a950d80.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/pages/multipage.svelte-9a0c98cc.js">
-	<link rel="modulepreload" href="/svelte-pdfjs/_app/chunks/index-edb5e20a.js">
+		<link href="/svelte-pdfjs/_app/immutable/assets/_page-e8adb350.css" rel="stylesheet">
+		<link href="/svelte-pdfjs/_app/immutable/assets/PageCanvas-239a3f11.css" rel="stylesheet">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/start-138f628c.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/preload-helper-aa6bc0ce.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/index-ca1e3c02.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/singletons-5f062a5c.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/index-8bf626d4.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/paths-f0a15470.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/components/layout.svelte-1e55e3c3.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/modules/pages/_layout.ts-37927499.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/_layout-50971f0e.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/worker-bf49efb2.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/components/pages/multipage/_page.svelte-fbe979b1.js">
+		<link rel="modulepreload" href="/svelte-pdfjs/_app/immutable/chunks/target_dimension-e4c30937.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -20,26 +27,25 @@
 
 
 
-		<script type="module" data-hydrate="2eq20f">
-		import { start } from "/svelte-pdfjs/_app/start-48e156e4.js";
-		start({
-			target: document.querySelector('[data-hydrate="2eq20f"]').parentNode,
-			paths: {"base":"/svelte-pdfjs","assets":"/svelte-pdfjs"},
-			session: {},
-			route: false,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [
-					import("/svelte-pdfjs/_app/layout.svelte-0a950d80.js"),
-						import("/svelte-pdfjs/_app/pages/multipage.svelte-9a0c98cc.js")
-				],
-				params: {},
-				routeId: "multipage"
-			}
-		});
-	</script></div>
+		<script type="module" data-sveltekit-hydrate="2eq20f">
+			import { start } from "/svelte-pdfjs/_app/immutable/start-138f628c.js";
+
+			start({
+				env: {},
+				hydrate: {
+					status: 200,
+					error: null,
+					node_ids: [0, 3],
+					params: {},
+					routeId: "multipage",
+					data: (function(a){return [a,a]}(null)),
+					form: null
+				},
+				paths: {"base":"/svelte-pdfjs","assets":"/svelte-pdfjs"},
+				target: document.querySelector('[data-sveltekit-hydrate="2eq20f"]').parentNode,
+				trailing_slash: "never"
+			});
+		</script>
+	</div>
 	</body>
 </html>
