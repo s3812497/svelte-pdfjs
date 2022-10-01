@@ -1,1 +1,0 @@
-import"./index-ca1e3c02.js";import{s as r}from"./worker-3abca82c.js";import"./preload-helper-aa6bc0ce.js";const e=""+new URL("../assets/pdf.worker.min-99732130.js",import.meta.url).href;r(e);const o=!0,n=Object.freeze(Object.defineProperty({__proto__:null,prerender:o},Symbol.toStringTag,{value:"Module"}));export{n as _,o as p};
